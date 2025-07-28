@@ -20,7 +20,7 @@ RUN cmake .. -DCMAKE_INSTALL_PREFIX=${CONDA_DIR} && \
     make clean
 
 ENV project=bmi-example-cxx
-ENV version="2.1.2"
+ENV version="2.1.3"
 ENV prefix=/opt/${project}
 RUN git clone --branch v${version} ${base_url}/${project} ${prefix}
 WORKDIR ${prefix}/_build
