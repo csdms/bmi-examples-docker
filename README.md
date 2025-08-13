@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+>
+> Please see [csdms/bmi-docker](https://github.com/csdms/bmi-docker) for the latest versions of the BMI examples built with Docker.
+
 # bmi-examples-docker
 
 The [Basic Model Interface](https://bmi.csdms.io) (BMI) example models
